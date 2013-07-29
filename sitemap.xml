@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://fredzhou.github.io/blog/2013/07/29/first-blog/</loc>
+        <lastmod>2013-07-29T17:31:07+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fredzhou.github.io/</loc>
+        <lastmod>2013-07-29T17:31:07+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fredzhou.github.io/blog/archives/</loc>
+        <lastmod>2013-07-29T17:31:07+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fredzhou.github.io/robots.txt</loc>
+        <lastmod>2013-07-29T17:29:21+08:00</lastmod>
+    </url>
+</urlset>
