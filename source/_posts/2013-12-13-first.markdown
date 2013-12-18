@@ -1,7 +1,0 @@
----
-layout: post
-title: "first"
-date: 2013-12-13 17:30:03 +0800
-comments: true
-categories: 
----
