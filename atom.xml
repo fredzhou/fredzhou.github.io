@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[fred zhou]]></title>
+  <title><![CDATA[something to remember]]></title>
   <link href="http://zhoufeng.me/atom.xml" rel="self"/>
   <link href="http://zhoufeng.me/"/>
-  <updated>2013-12-31T23:46:41+08:00</updated>
+  <updated>2013-12-31T23:51:50+08:00</updated>
   <id>http://zhoufeng.me/</id>
   <author>
     <name><![CDATA[Fred Zhou]]></name>
