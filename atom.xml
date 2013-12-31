@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[fred zhou]]></title>
+  <link href="http://zhoufeng.me/atom.xml" rel="self"/>
+  <link href="http://zhoufeng.me/"/>
+  <updated>2013-12-31T23:46:41+08:00</updated>
+  <id>http://zhoufeng.me/</id>
+  <author>
+    <name><![CDATA[Fred Zhou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Why sprint groomings fail?]]></title>
+    <link href="http://zhoufeng.me/blog/2013/12/18/why-sprint-groomings-fail/"/>
+    <updated>2013-12-18T13:42:24+08:00</updated>
+    <id>http://zhoufeng.me/blog/2013/12/18/why-sprint-groomings-fail</id>
+    <content type="html"><![CDATA[<p>I worked with some teams on grooming lately, and I found that there might be still some areas we can improve for grooming. In this blog I&rsquo;ll briefly introduce several common problems I&rsquo;ve seen, and the solutions to fix them.</p>
+
+<p>Common problems with grooming:</p>
+
+<ul>
+<li>ATDD cases are just by-product of grooming</li>
+<li>Wrong timing</li>
+<li>not focusing on the scope but focusing on questions</li>
+</ul>
+
+
+<p>And here comes more detailed descriptions.</p>
+
+<h2>ATDD cases are just by-product of grooming</h2>
+
+<p>The problem is, most of the time were spent in discussing how to implement the requirement, and while time is almost up, team quickly summarize what they need to test based on the understanding of solution. So in this scenario, ATDD cases seem to be a by-product of our solution discussion. But we need to realize that, solution and ATDD (which reflects the requirement) are different issue, while the former is the issue of &ldquo;do thing right&rdquo;, the latter is more of the issue of &ldquo;do right thing&rdquo;. And we need to really ensure that we&rsquo;re doing right thing, by increasing the focus of ATDD case discussion in grooming meeting.</p>
+
+<p>To solve this problem, I&rsquo;ve suggested to some teams that we have a separate section in the grooming meeting,  discussing only the ATDD cases, before we start to discuss the solution. Team members try to avoid the discussion of &ldquo;how to implement this iteration item&rdquo;, and focus on &ldquo;what&rsquo;s the behavior of the iteration item&rdquo;.</p>
+
+<p>Of course, ATDD cases in this phase are in abstract level, because some check points can not be finalized before we get a concrete solution for the iteration item. But it doesn&rsquo;t matter, for we can distill our cases to more specific level before the planning, or even after the planning but before the coding is finished.</p>
+
+<p>Teams can still apply the framework like SQA (scope, question, and assumption) and FURPS (functionality, usability, reliability, performance and supportability). But this is out of the scope of this blog, and if you have further interests, you can either googling it or discussing with me.</p>
+
+<h2>Wrong timing</h2>
+
+<p>It&rsquo;s quite often that teams have grooming just one day before the planning. But this is not very good practice, better practice is to have the grooming one or two week before planning, for a 4-week sprint.</p>
+
+<p>Reason is that, the purpose of grooming is to make the planning easier, so in the grooming, we split the iteration item into smaller granular, and will meanwhile get some questions. If we don&rsquo;t have enough time to clarify the questions before the planning, it might be difficult to continue with planning, sometimes we can be dropped into endless question loops and discussions. So having grooming one or two weeks before planning let us have enough time to clarify questions.</p>
+
+<p>Some teams even have the grooming after planning, to have more design on solution, and to clarify the problems found from the planning. This is one thing I don&rsquo;t quite agree, and just too disagreed to give more comments on this. And as a reader you can think of this if interested.</p>
+
+<h2>focusing on questions instead of scope</h2>
+
+<p>This is the problem about how we get solution. Much of the teams discuss solution based on &ldquo;SQA&rdquo; framework, and sometimes people are easily absorbed with the questions (Q) they&rsquo;re discussing, and forget that it is also important to get the scope (S) without missing important aspects.</p>
+
+<p>So my suggestion is that, firstly try to list as much as we know about the scope, then for those part we&rsquo;re not sure, just write down question, discuss about it, or solve it offline before planning.</p>
+]]></content>
+  </entry>
+  
+</feed>
